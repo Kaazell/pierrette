@@ -16,18 +16,25 @@
             <div id="redirect">
                 <p>Tél: +1 (450) 675 9999</p>
                 <ul>
-                    <li>Travaux réalisés</li>
+                    <li>Travaux</li>
+                    <li>Tarifs</li>
                     <li>Contact</li>
                 </ul>
             </div>
         </div>
         <img src="assets/pictures/banner.png" alt="" id="banner">
     </header>
-    <main>
-        <div></div>
-    </main>
-    <footer>
-
-    </footer>
+    <form action="send_email.php" method="post">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">E-mail :</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Message :</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        
+        <input type="submit" value="Enasvoyer">
+      </form>
 </body>
 </html>

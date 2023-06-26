@@ -4,22 +4,52 @@
     justify-content: space-between;
     border: 3px black solid;
 }
-
-#title>h1 {
-    color: #E89B8B;
-}
-#title {
-    background-color: black;
-    width: 50%;
-
-}
-#title>h2 {
-    color: #F6EBE1;
-}
-#redirect>ul {
-    display: flex;
-    list-style-type: none;
-}
 img {
     width: 100%;
+}
+#title>img {
+    width: 300px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    height: 30%;
+    align-items:end;
+    margin-right: 20px;
+}
+#redirect {
+    width: 100%;
+}
+#banner {
+    display: none;
+}
+ul>li {
+    font-size: 1.5em;
+    padding-left: 53px;
+    padding-right:53px;
+    border-radius: 79px;
+    opacity: 0.8;
+}
+ul>li:hover {
+    background-color: #E79A8A;
+    cursor: pointer;
+}
+#redirect p {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+    font-size: 1.7em;
+    font-weight: 600;
+}
+/* contact form */
+form {
+    display: flex;
+    flex-direction: column;
+    border: 3px black solid;
+    margin: 5%;
+    background-color: #F6EBE1;
+}
+#name, #email, #message {
+
 }
