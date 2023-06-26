@@ -1,0 +1,25 @@
+#intro {
+    background-color: #F6EBE1;
+    display: flex;
+    justify-content: space-between;
+    border: 3px black solid;
+}
+
+#title>h1 {
+    color: #E89B8B;
+}
+#title {
+    background-color: black;
+    width: 50%;
+
+}
+#title>h2 {
+    color: #F6EBE1;
+}
+#redirect>ul {
+    display: flex;
+    list-style-type: none;
+}
+img {
+    width: 100%;
+}
