@@ -4,9 +4,6 @@
     justify-content: space-between;
     border: 3px black solid;
 }
-img {
-    width: 100%;
-}
 #title>img {
     width: 200px;
 }
@@ -25,24 +22,29 @@ img {
     margin-right: 20px;
 }
 
-#banner {
-    display: none;
+#redirect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#redirect>ul>li {
-    font-size: 1.5em;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding: 10px;
-    border-radius: 79px;
+  
+.headerLi {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3em;
 }
-ul>li:hover {
-    background-color: #E79A8A;
+.headerLi:hover {
+    background-color: black;
+    color: #E79C87;
+    opacity: 1;
     cursor: pointer;
 }
-a {
-    color: black;
-    text-decoration: none;
-}
+
 /* Styles pour le formulaire */
 form {
     max-width: 600px;
@@ -103,19 +105,33 @@ form {
 #bio {
     border: 1px black solid;
     width: 70%;
-    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #c6e5b1;
-    padding: 15px;
+    background-color: white;
+    padding: 30px;
     display: flex;
+    opacity: 0.8;
 }
 #section1 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 #section2 {
     margin: 30px;
+}
+#name {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 100;
+}
+.imageDiv {
+  width: 100%; /* Ajustez la largeur selon vos besoins */
+  height: 700px; /* Ajustez la hauteur selon vos besoins */
+  background-image: url("works/debut1.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
 }
 /* works */
 .photos-travail {
